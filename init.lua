@@ -200,6 +200,7 @@ end
 vim.api.nvim_set_keymap('n', '<Space>h', '<cmd>lua open_file_in_split()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Space>j', '<cmd>wincmd h<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Space>k', '<cmd>wincmd l<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Space>l', '<cmd>close<CR>', { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', { noremap = true, silent = true })
