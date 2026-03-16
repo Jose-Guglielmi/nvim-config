@@ -39,6 +39,7 @@ Ejecuta `:Mason` dentro de Neovim para instalar lenguajes como rust-analyzer, py
 | `<Space>ff` | Buscar archivos (Telescope) |
 | `<Space>f` | Ver buffers abiertos |
 | `<Space>h` | Abrir archivo en split horizontal |
+| `<Space>l` | cierra el split actual |
 | `<Space>j` | Moverse a split izquierdo |
 | `<Space>k` | Moverse a split derecho |
 | `<C-1>` | Toggle terminal flotante 1 |
